@@ -8,7 +8,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
      index: './src/index.js',
   },
   devServer: {
-  static: './doc',
+  static: './docs',
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -17,7 +17,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
   ],
    output: {
      filename: 'index.js',
-     path: path.resolve(__dirname, 'doc'),
+     path: path.resolve(__dirname, 'docs'),
      clean: true,
    },
    module: {
