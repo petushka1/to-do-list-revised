@@ -51,8 +51,6 @@ Open _Terminal/Shell_ inside your _VSCode_ and run
     npm run lint:es
   ```
 
-### Deployment
-
 
 ## Authors
 
